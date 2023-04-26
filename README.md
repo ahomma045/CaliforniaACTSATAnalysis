@@ -16,7 +16,7 @@ Through this analysis, we hope to provide recommendations to the state governmen
 This project uses two datasets, act_2019_ca and sat_2019_ca. They are available in CSV format. 
 * [act_2019_ca.csv](/data/original/act_2019_ca.csv): 2019 ACT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831222336/https://www.cde.ca.gov/ds/sp/ai/reclayoutact19.asp))
 
-* [sat_2019_ca.csv](/data/original/sat_2019_ca.csvdata/sat_2019_ca.csv): 2019 SAT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831212915/https://www.cde.ca.gov/ds/sp/ai/reclayoutsat19.asp))
+* [sat_2019_ca.csv](/data/original/sat_2019_ca.csv): 2019 SAT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831212915/https://www.cde.ca.gov/ds/sp/ai/reclayoutsat19.asp))
 
 Also, median income data was collected from US Census 
 * [median_income_2019_ca.csv](/data/original/median_income_2019_ca.csv): US Census, American Community Survey, S1903: Median Income in the past 12 months (in 2019 inflation-adjusted dollars ([source](https://data.census.gov/table?t=Income+(Households,+Families,+Individuals)&g=040XX00US06$0500000&y=2019&tid=ACSST1Y2019.S1903&moe=false))
