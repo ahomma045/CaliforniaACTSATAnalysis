@@ -14,12 +14,12 @@ Through this analysis, we hope to provide recommendations to the state governmen
 
 ## Data
 This project uses two datasets, act_2019_ca and sat_2019_ca. They are available in CSV format. 
-* [`act_2019_ca.csv`](data/act_2019_ca.csv): 2019 ACT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831222336/https://www.cde.ca.gov/ds/sp/ai/reclayoutact19.asp))
+* [act_2019_ca.csv](/data/original/act_2019_ca.csv): 2019 ACT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831222336/https://www.cde.ca.gov/ds/sp/ai/reclayoutact19.asp))
 
-* [`sat_2019_ca.csv`](data/sat_2019_ca.csv): 2019 SAT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831212915/https://www.cde.ca.gov/ds/sp/ai/reclayoutsat19.asp))
+* [sat_2019_ca.csv](/data/original/sat_2019_ca.csvdata/sat_2019_ca.csv): 2019 SAT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831212915/https://www.cde.ca.gov/ds/sp/ai/reclayoutsat19.asp))
 
 Also, median income data was collected from US Census 
-* [`median_income_2019_ca.csv`](data/median_income_2019_ca.csv): US Census, American Community Survey, S1903: Median Income in the past 12 months (in 2019 inflation-adjusted dollars ([source](https://data.census.gov/table?t=Income+(Households,+Families,+Individuals)&g=040XX00US06$0500000&y=2019&tid=ACSST1Y2019.S1903&moe=false))
+* [median_income_2019_ca.csv](/data/original/median_income_2019_ca.csv): US Census, American Community Survey, S1903: Median Income in the past 12 months (in 2019 inflation-adjusted dollars ([source](https://data.census.gov/table?t=Income+(Households,+Families,+Individuals)&g=040XX00US06$0500000&y=2019&tid=ACSST1Y2019.S1903&moe=false))
 
 --- 
 
@@ -32,7 +32,7 @@ Similarly, for the ACT dataset, we imported and cleaned the data, identified the
 
 Finally, we imported US Census data on median household income in California counties for 2019, and cleaned the data by removing irrelevant columns and simplifying column names. We created a geographical chart to show county coverage, and a bar chart to display counties with low household median income in 2019, which included Lake, Fresno, and Tulare counties among the 10 low performing counties in the ACT and SAT exams. We also created a heatmap to examine the correlation between exam performance and income levels, which showed some correlation between exam scores and household median income, with correlation coefficients ranging from 0.29 to 0.35.
 
-Here is a link to [a geographical chart in Tableau](https://public.tableau.com/views/CaliforniaACTSATAnalysis/D_California_SAT_Scores_Coverage?:language=en-US&:display_count=n&:origin=viz_share_link).
+Here is a link to [the geographical chart dashboards in Tableau](https://public.tableau.com/views/CaliforniaACTSATAnalysis/D_California_SAT_Scores_Coverage?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ---
 
