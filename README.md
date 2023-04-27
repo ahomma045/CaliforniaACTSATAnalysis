@@ -13,6 +13,7 @@ Through this analysis, we hope to provide recommendations to the state governmen
 ---
 
 ## Data
+
 This project uses two datasets, act_2019_ca and sat_2019_ca. They are available in CSV format. 
 * [act_2019_ca.csv](/data/original/act_2019_ca.csv): 2019 ACT Scores in California by School ([source](https://www.cde.ca.gov/ds/sp/ai/) | [data dictionary](https://web.archive.org/web/20210831222336/https://www.cde.ca.gov/ds/sp/ai/reclayoutact19.asp))
 
@@ -23,8 +24,7 @@ Also, median income data was collected from US Census
 
 --- 
 
-## Executive Summary 
-The research process for each dataset (SAT/ ACT/ US Census) involved importing and cleaning the data, followed by exploratory data analysis. 
+## Exploratory Data Analysis (EDA)
 
 For the SAT dataset, we handled missing values, removed special characters and outliers, fixed incorrect data types, renamed columns, and dropped unnecessary columns. We created a geographical chart to show county coverage, identified counties with the highest and lowest mean test scores, and displayed the ten lowest performing counties on the SAT exam in 2019. We also created scatter charts to show the correlation between the percentage of students meeting the benchmark and two subjects, and grouped bar charts to compare average test scores by subject between the state of California and the 10 low performing counties. Our findings showed that improving math scores would be particularly beneficial for increasing the percentage of students exceeding the benchmark.
 
@@ -46,7 +46,6 @@ By implementing these recommendations, we believe that the state government can 
 ---
 
 ## Data Dictionary
-
 
 |Feature|Type|Dataset|Description|
 |-------|----|-------|-----------|
